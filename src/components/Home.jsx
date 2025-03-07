@@ -2,7 +2,7 @@ import React from "react";
 import image from "../../public/photo2.jpg";
 import { BiLogoGithub, BiLogoLinkedin, BiLogoYoutube } from "react-icons/bi";
 import { FaSlack } from "react-icons/fa";
-/* import Orb from "./Orb.jsx"; */
+import Orb from "./Orb.jsx";
 import "./Orb.css";
 
 const Home = () => {
@@ -11,14 +11,14 @@ const Home = () => {
       id="startseite"
       className="flex min-h-screen w-full items-center justify-center"
     >
-      {/*  <div className=" orb-container ">
+      <div className=" orb-container ">
         <Orb
           hoverIntensity={0.5}
           rotateOnHover={true}
           hue={0}
           forceHoverState={false}
         />
-      </div> */}
+      </div>
 
       <div className="flex flex-col items-center justify-center gap-8 p-5 text-center relative">
         <img
