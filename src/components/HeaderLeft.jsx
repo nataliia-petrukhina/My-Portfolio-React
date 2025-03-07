@@ -1,11 +1,5 @@
 import React from "react";
-import {
-  BiBriefcase,
-  BiCode,
-  BiHome,
-  BiMailSend,
-  BiRightArrowAlt,
-} from "react-icons/bi";
+import { BiBriefcase, BiCode, BiHome, BiMailSend } from "react-icons/bi";
 import Waves from "./Waves";
 
 const HeaderLeft = () => {

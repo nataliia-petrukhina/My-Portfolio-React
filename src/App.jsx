@@ -11,12 +11,12 @@ function App() {
     <>
       <div className="flex min-h-screen w-full subpixel-antialiased">
         <HeaderLeft />
-        <main className="flex-[4]">
+        <main className="flex-[3.5]">
           <Home />
           <Experience />
           <Project />
           <Contact />
-          
+
           {/*     <SplashCursor /> */}
         </main>
       </div>
