@@ -24,7 +24,7 @@ const Home = () => {
         <img
           src={image}
           alt="my_photo"
-          className="w-[200px] sm:w-[300px] rounded-full relative"
+          className="w-[200px] sm:w-[300px] rounded-full  mt-22 sm:mt-0 relative"
         />
 
         <div className="space-y-1 sm:space-y-3 ">

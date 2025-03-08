@@ -24,10 +24,10 @@
 }
 @media (max-width: 768px) {
   .orb-container {
-    top: 35.8%;
+    top: 38.8%;
     left: 35.7%;
     transform: translate(-30%, -50%);
-    width: 71%; /* Увеличенный размер, чтобы покрывать фон */
+    width: 60%; /* Увеличенный размер, чтобы покрывать фон */
     height: 71%;
     opacity: 0.9;
   }
