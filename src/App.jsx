@@ -3,8 +3,9 @@ import Home from "./components/Home";
 import Experience from "./components/Experience";
 import Project from "./components/Projects";
 import Contact from "./components/Contact";
+import Footer from "./components/Footer";
 /* import SplashCursor from "./components/SplashCursor"; */
-import Waves from "./components/Waves";
+/* import Waves from "./components/Waves"; */
 
 function App() {
   return (
@@ -16,7 +17,7 @@ function App() {
           <Experience />
           <Project />
           <Contact />
-
+          <Footer />
           {/*     <SplashCursor /> */}
         </main>
       </div>

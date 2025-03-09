@@ -14,43 +14,32 @@ const Experience = () => {
         <div className="w-full md:w-1/2">
           <div className="relative space-y-1 border-l-2 border-gray-300 p-8 text-left">
             <h3 className="text-xl font-semibold md:text-2xl">Erfahrung</h3>
-            <p className="font-light text-lg text-gray-600">Titel</p>
+            <p className="font-light text-lg text-gray-600"></p>
             <p className="text-sm text-gray-600">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem
-              ipsum dolor sit amet consectetur adipisicing elit. Fugit excepturi
-              sed possimus natus et iusto est eum vero velit totam aperiam
-              repellat blanditiis cum quibusdam, ipsa voluptate nisi inventore
-              dolores ipsum dignissimos sequi repudiandae! Voluptatem molestias
-              laboriosam cupiditate eligendi veniam. Lorem ipsum dolor sit amet
-              consectetur adipisicing elit. Architecto qui quibusdam placeat rem
-              repudiandae eveniet sequi itaque natus iure expedita.
+              2013-2018 – Abschluss an der Odessa International Medical
+              University mit dem Fachgebiet Apotheker (Pharmazie).
             </p>
-            <span className="absolute -left-[11px] top-10 h-5 w-5 rounded-full bg-cyan-200"></span>
+            <span className="absolute -left-[11px] top-10 h-5 w-5 rounded-full bg-emerald-500"></span>
           </div>
 
           <div className="relative space-y-1 border-l-2 border-gray-300 p-8 text-left">
             <h3 className="text-xl font-semibold md:text-2xl">Erfahrung</h3>
-            <p className="font-light text-lg text-gray-600">Titel</p>
+            <p className="font-light text-lg text-gray-600"></p>
             <p className="text-sm text-gray-600">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem
-              ipsum dolor sit amet consectetur adipisicing elit. Fugit excepturi
-              sed possimus natus et iusto est eum vero velit totam aperiam
-              repellat blanditiis cum quibusdam, i
+              2018-2021 – Tätigkeit bei der französischen Firma Servier als
+              medizinischer Vertreter im Bereich kardiologischer Medikamente.
             </p>
-            <span className="absolute -left-[11px] top-10 h-5 w-5 rounded-full bg-cyan-200"></span>
+            <span className="absolute -left-[11px] top-10 h-5 w-5 rounded-full bg-emerald-500"></span>
           </div>
 
           <div className="relative space-y-1 border-l-2 border-gray-300 p-8 text-left">
             <h3 className="text-xl font-semibold md:text-2xl">Erfahrung</h3>
-            <p className="font-light text-lg text-gray-600">Titel</p>
+            <p className="font-light text-lg text-gray-600"></p>
             <p className="text-sm text-gray-600">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem
-              ipsum dolor sit amet consectetur adipisicing elit. Fugit excepturi
-              sed possimus natus et iusto est eum vero velit totam aperiam
-              repellat blandite! Voluptatem molestias laboriosam cupiditate
-              eligendi veniam.
+              2021-2022 – Gründung der Marke Le Correcteur Completif
+              (Maßanfertigung von Damenkorsetts).
             </p>
-            <span className="absolute -left-[11px] top-10 h-5 w-5 rounded-full bg-cyan-200"></span>
+            <span className="absolute -left-[11px] top-10 h-5 w-5 rounded-full bg-emerald-500"></span>
           </div>
         </div>
 
@@ -58,43 +47,33 @@ const Experience = () => {
         <div className="w-full md:w-1/2">
           <div className="relative space-y-1 border-l-2 border-gray-300 p-8 text-left">
             <h3 className="text-xl font-semibold md:text-2xl">Erfahrung</h3>
-            <p className="font-light text-lg text-gray-600">Titel</p>
+            <p className="font-light text-lg text-gray-600"></p>
             <p className="text-sm text-gray-600">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem
-              ipsum dolor sit amet consectetur adipisicing elit. Fugit excepturi
-              sed possimus natus et iusto est eum vero velit totam aperiam
-              repellat blanditiis cum quibusdam, ipsa voluptate nisi inventore
-              dolores ipsum dignissimos sequi repudiandae! Voluptatem molestias
-              laboriosam cupiditate eligendi veniam.
+              2023-2024 – Selbststudium auf der Plattform Udemy (HTML, CSS).
             </p>
-            <span className="absolute -left-[11px] top-10 h-5 w-5 rounded-full bg-cyan-200"></span>
+            <span className="absolute -left-[11px] top-10 h-5 w-5 rounded-full bg-emerald-500"></span>
           </div>
 
           <div className="relative space-y-1 border-l-2 border-gray-300 p-8 text-left">
             <h3 className="text-xl font-semibold md:text-2xl">Erfahrung</h3>
-            <p className="font-light text-lg text-gray-600">Titel</p>
+            <p className="font-light text-lg text-gray-600"></p>
             <p className="text-sm text-gray-600">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem
-              ipsum dolor sit amet consectetur adipisicing elit. Fugit excepturi
-              sed possimus natus et iusto est eum vero velit totam aperiam
-              repellat blanditiis cum quibusd
+              2023-2025 Studium der deutschen Sprache, B2-Zertifikat
+              (Telc-Prüfung) <br />
+              2024-2025 Studium der deutschen Sprache auf der Plattform Lingoda
+              (C1-Niveau)
             </p>
-            <span className="absolute -left-[11px] top-10 h-5 w-5 rounded-full bg-cyan-200"></span>
+            <span className="absolute -left-[11px] top-10 h-5 w-5 rounded-full bg-emerald-500"></span>
           </div>
 
           <div className="relative space-y-1 border-l-2 border-gray-300 p-8 text-left">
             <h3 className="text-xl font-semibold md:text-2xl">Erfahrung</h3>
-            <p className="font-light text-lg text-gray-600">Titel</p>
+            <p className="font-light text-lg text-gray-600"></p>
             <p className="text-sm text-gray-600">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem
-              ipsum dolor sit amet consectetur adipisicing elit. Fugit excepturi
-              sed possimus natus et iusto est eum vero velit totam aperiam
-              repellat blanditiis cum quibusdam, ipsa voluptate nisi inventore
-              dolores ipsum dignissimos sequi repudiandae! Voluptatem molestias
-              laboriosam cupiditate eligendi veniam. Lorem, ipsum dolor sit amet
-              consectetur adipisicing elit. Volupt.
+              2024-2025 – Weiterbildung an der Digital Career Institute <br />
+              (JavaScript Fullstack Development).
             </p>
-            <span className="absolute -left-[11px] top-10 h-5 w-5 rounded-full bg-cyan-200"></span>
+            <span className="absolute -left-[11px] top-10 h-5 w-5 rounded-full bg-emerald-500"></span>
           </div>
         </div>
       </div>
