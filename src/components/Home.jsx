@@ -1,6 +1,11 @@
 import React from "react";
 import image from "../../public/photo2.jpg";
-import { BiLogoGithub, BiLogoLinkedin, BiLogoYoutube } from "react-icons/bi";
+import {
+  BiLogoGithub,
+  BiLogoInstagram,
+  BiLogoLinkedin,
+  BiLogoYoutube,
+} from "react-icons/bi";
 import { FaSlack } from "react-icons/fa";
 import Orb from "./Orb.jsx";
 import "./Orb.css";
@@ -47,7 +52,7 @@ const Home = () => {
             <BiLogoGithub className="h-10 w-10 cursor-pointer rounded-full border-2 border-transparent bg-indigo-800 p-2 text-white transition-all duration-200 hover:scale-110 hover:border-indigo-400 hover:bg-white hover:text-indigo-500 md:h-12 md:w-12" />
             <FaSlack className="h-10 w-10 cursor-pointer rounded-full border-2 border-transparent bg-indigo-800 p-2 text-white transition-all duration-200 hover:scale-110 hover:border-indigo-400 hover:bg-white hover:text-indigo-500 md:h-12 md:w-12" />
             <BiLogoLinkedin className="h-10 w-10 cursor-pointer rounded-full border-2 border-transparent bg-indigo-800 p-2 text-white transition-all duration-200 hover:scale-110 hover:border-indigo-400 hover:bg-white hover:text-indigo-500 md:h-12 md:w-12" />
-            <BiLogoYoutube className="h-10 w-10 cursor-pointer rounded-full border-2 border-transparent bg-indigo-800 p-2 text-white transition-all duration-200 hover:scale-110 hover:border-indigo-400 hover:bg-white hover:text-indigo-500 md:h-12 md:w-12" />
+            <BiLogoInstagram className="h-10 w-10 cursor-pointer rounded-full border-2 border-transparent bg-indigo-800 p-2 text-white transition-all duration-200 hover:scale-110 hover:border-indigo-400 hover:bg-white hover:text-indigo-500 md:h-12 md:w-12" />
           </div>
         </div>
       </div>
