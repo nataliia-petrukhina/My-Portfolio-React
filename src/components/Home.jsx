@@ -4,11 +4,12 @@ import {
   BiLogoGithub,
   BiLogoInstagram,
   BiLogoLinkedin,
-  BiLogoYoutube,
+  
 } from "react-icons/bi";
 import { FaSlack } from "react-icons/fa";
 import Orb from "./Orb.jsx";
 import "./Orb.css";
+import DarkMode from "./DarkMode.jsx";
 
 const Home = () => {
   return (
@@ -16,6 +17,7 @@ const Home = () => {
       id="startseite"
       className="flex min-h-screen w-full items-center justify-center"
     >
+      <DarkMode />
       <div className=" orb-container ">
         <Orb
           hoverIntensity={0.5}
