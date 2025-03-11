@@ -1,11 +1,6 @@
 import React from "react";
 import image from "../../public/photo2.jpg";
-import {
-  BiLogoGithub,
-  BiLogoInstagram,
-  BiLogoLinkedin,
-  
-} from "react-icons/bi";
+import { BiLogoGithub, BiLogoInstagram, BiLogoLinkedin } from "react-icons/bi";
 import { FaSlack } from "react-icons/fa";
 import Orb from "./Orb.jsx";
 import "./Orb.css";
@@ -31,7 +26,7 @@ const Home = () => {
         <img
           src={image}
           alt="my_photo"
-          className="w-[200px] sm:w-[300px] rounded-full  mt-22 sm:mt-0 relative"
+          className="w-[200px] sm:w-[300px] rounded-full  mt-20 sm:mt-22 relative"
         />
 
         <div className="space-y-1 sm:space-y-3 ">
