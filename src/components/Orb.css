@@ -1,6 +1,6 @@
 .orb-container {
   position: absolute;
-  top: 39.5%;
+  top: 36.8%;
   left: 43.5%;
   transform: translate(-30%, -50%);
   z-index: -1; /* Orb уходит на фон */
@@ -24,7 +24,7 @@
 }
 @media (max-width: 768px) {
   .orb-container {
-    top: 39.8%;
+    top: 36.8%;
     left: 35.7%;
     transform: translate(-30%, -50%);
     width: 60%; /* Увеличенный размер, чтобы покрывать фон */

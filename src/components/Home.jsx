@@ -9,7 +9,7 @@ import DarkMode from "./DarkMode.jsx";
 const Home = () => {
   return (
     <div
-      id="startseite"
+      id="Startseite"
       className="flex min-h-screen w-full items-center justify-center"
     >
       <DarkMode />
@@ -30,13 +30,13 @@ const Home = () => {
         />
 
         <div className="space-y-1 sm:space-y-3 ">
-          <h1 className="bg-gradient-to-r from-teal-600 to-teal-200 bg-clip-text text-4xl font-semibold text-transparent md:text-4xl lg:text-5xl">
+          <h1 className="bg-gradient-to-r from-teal-600 to-teal-200 bg-clip-text text-4xl font-semibold text-transparent md:text-4xl lg:text-5xl mt-8">
             Nataliia Petrukhina
           </h1>
           <h2 className="bg-gradient-to-r from-teal-600 to-teal-200 bg-clip-text text-xl font-semibold text-transparent md:text-2xl lg:text-3xl">
             Webentwicklerin
           </h2>
-          <p className="max-w-[500px] text-base text-gray-500">
+          <p className="max-w-[500px] text-lg text-gray-500">
             Ich bin eine leidenschaftliche Webentwicklerin mit einem
             ausgeprägten Sinn für Ästhetik. Mit Kenntnissen in HTML, CSS,
             JavaScript und React kombiniere ich modernes Design mit Eleganz. Ich
@@ -46,10 +46,10 @@ const Home = () => {
             noch raffiniertere und zeitlose Webauftritte zu gestalten.
           </p>
           <div className="flex gap-3 justify-center mt-8">
-            <BiLogoGithub className="h-10 w-10 cursor-pointer rounded-full border-2 border-transparent bg-indigo-800 p-2 text-white transition-all duration-200 hover:scale-110 hover:border-indigo-400 hover:bg-white hover:text-indigo-500 md:h-12 md:w-12" />
-            <FaSlack className="h-10 w-10 cursor-pointer rounded-full border-2 border-transparent bg-indigo-800 p-2 text-white transition-all duration-200 hover:scale-110 hover:border-indigo-400 hover:bg-white hover:text-indigo-500 md:h-12 md:w-12" />
-            <BiLogoLinkedin className="h-10 w-10 cursor-pointer rounded-full border-2 border-transparent bg-indigo-800 p-2 text-white transition-all duration-200 hover:scale-110 hover:border-indigo-400 hover:bg-white hover:text-indigo-500 md:h-12 md:w-12" />
-            <BiLogoInstagram className="h-10 w-10 cursor-pointer rounded-full border-2 border-transparent bg-indigo-800 p-2 text-white transition-all duration-200 hover:scale-110 hover:border-indigo-400 hover:bg-white hover:text-indigo-500 md:h-12 md:w-12" />
+            <BiLogoGithub className="h-10 w-10 cursor-pointer rounded-full border-2 border-transparent bg-indigo-800 p-2 text-white transition-all duration-200 hover:scale-110 hover:border-indigo-400 hover:bg-indigo-400 hover:text-white md:h-12 md:w-12" />
+            <FaSlack className="h-10 w-10 cursor-pointer rounded-full border-2 border-transparent bg-indigo-800 p-2 text-white transition-all duration-200 hover:scale-110 hover:border-indigo-400 hover:bg-indigo-400 hover:text-white md:h-12 md:w-12" />
+            <BiLogoLinkedin className="h-10 w-10 cursor-pointer rounded-full border-2 border-transparent bg-indigo-800 p-2 text-white transition-all duration-200 hover:scale-110 hover:border-indigo-400 hover:bg-indigo-400 hover:text-white md:h-12 md:w-12" />
+            <BiLogoInstagram className="h-10 w-10 cursor-pointer rounded-full border-2 border-transparent bg-indigo-800 p-2 text-white transition-all duration-200 hover:scale-110 hover:border-indigo-400 hover:bg-indigo-400 hover:text-white md:h-12 md:w-12" />
           </div>
         </div>
       </div>

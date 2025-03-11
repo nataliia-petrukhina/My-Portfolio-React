@@ -4,8 +4,8 @@ import "./CircularGallery.css";
 
 const Projects = () => {
   return (
-    <div id="projekte" style={{ height: "600px", position: "relative" }}>
-      <h2 className="text-center text-5xl font-light mt-8">Projekts</h2>
+    <div id="Projekte" style={{ height: "600px", position: "relative" }}>
+      <h2 className="text-center text-5xl font-light mt-8">Projekte</h2>
       <CircularGallery
         bend={0}
         textColor="#808080"
