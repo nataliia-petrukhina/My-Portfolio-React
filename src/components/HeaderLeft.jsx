@@ -56,14 +56,12 @@ const HeaderLeft = () => {
             className="flex flex-col items-center justify-center"
           >
             <BiCode className="text-2xl" />
-            <span className="text-s">projekte</span>
           </a>
           <a
             href="#kontakt"
             className="flex flex-col items-center justify-center"
           >
             <BiMailSend className="text-2xl" />
-            <span className="text-s">Contact</span>
           </a>
         </div>
       </div>{" "}
