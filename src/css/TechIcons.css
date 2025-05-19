@@ -1,0 +1,17 @@
+.tech-icons {
+    display: flex;
+    justify-content: center;
+    gap: 1.6rem;
+    padding: 9rem;
+    font-size: 6rem;
+   
+  }
+  
+  .tech-icons i {
+    font-size: 6rem; /* Увеличивает размер иконок */
+    transition: transform 0.5s ease; /* Анимация при наведении */
+  }
+  
+  .tech-icons i:hover {
+    transform: scale(1.2); /* Увеличение при наведении */
+  }

@@ -1,9 +1,10 @@
 import HeaderLeft from "./components/HeaderLeft";
 import Home from "./components/Home";
-import Experience from "./components/Experience";
+/* import Experience from "./components/Experience"; */
 import Project from "./components/Projects";
 import Contact from "./components/Contact";
 import Footer from "./components/Footer";
+import TechIcons from "./components/TechIcons";
 /* import SplashCursor from "./components/SplashCursor"; */
 /* import Waves from "./components/Waves"; */
 
@@ -14,7 +15,8 @@ function App() {
         <HeaderLeft />
         <main className="flex-[3.5]">
           <Home />
-          <Experience />
+        {/*   <Experience /> */}
+        <TechIcons/>
           <Project />
           <Contact />
           <Footer />
