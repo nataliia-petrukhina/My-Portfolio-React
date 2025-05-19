@@ -1,8 +1,18 @@
 #root {
-  max-width: 1280px;
+/*   max-width: 1280px;
   margin: 0 auto;
-  padding: 2rem;
-  text-align: center;
+  padding: 2rem; 
+  text-align: center; */
+
+}
+
+
+
+@media (min-width: 768px) {
+  #root {
+    padding: 0;
+    margin: 0;
+  }
 }
 
 .logo {
@@ -39,4 +49,35 @@
 
 .read-the-docs {
   color: #888;
+}
+
+
+
+.animated-hase {
+ /*  display: flex; */
+  /* flex-wrap: wrap; */
+  /* justify-content: center; */
+  font-size: 1rem;
+  /* font-weight: bold; */
+  color: #ecaddf;
+  margin-top: 1rem;
+}
+
+.animated-hase span {
+  opacity: 0.2;
+  animation: glowFade 3s infinite;
+  animation-fill-mode: both;
+}
+
+@keyframes glowFade {
+  0%, 100% {
+    opacity: 0.3;
+    color: #ffb8ff;
+    text-shadow: none;
+  }
+  50% {
+    opacity: 0.9;
+    color: #e093e0;
+/*     text-shadow: 0 0 10px rgba(252, 217, 22, 0.7);
+ */  }
 }

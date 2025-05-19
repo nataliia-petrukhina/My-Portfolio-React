@@ -2,8 +2,9 @@ import React from "react";
 import image from "../../public/photo2.jpg";
 import { BiLogoGithub, BiLogoInstagram, BiLogoLinkedin } from "react-icons/bi";
 import { FaSlack } from "react-icons/fa";
-import Orb from "./Orb.jsx";
-import "./Orb.css";
+import '../App.css';
+/* import Orb from "./Orb.jsx";
+import "./Orb.css"; */
 import DarkMode from "./DarkMode.jsx";
 
 const Home = () => {
@@ -14,12 +15,12 @@ const Home = () => {
     >
       <DarkMode />
       <div className=" orb-container ">
-        <Orb
+        {/*    <Orb
           hoverIntensity={0.5}
           rotateOnHover={true}
           hue={0}
           forceHoverState={false}
-        />
+        /> */}
       </div>
 
       <div className="flex flex-col items-center justify-center gap-8 p-5 text-center relative">
@@ -36,14 +37,14 @@ const Home = () => {
           <h2 className="bg-gradient-to-r from-teal-600 to-teal-200 bg-clip-text text-xl font-semibold text-transparent md:text-2xl lg:text-3xl">
             Webentwicklerin
           </h2>
-          <p className="max-w-[500px] text-lg text-gray-500">
-            Ich bin eine leidenschaftliche Webentwicklerin mit einem
-            ausgeprägten Sinn für Ästhetik. Mit Kenntnissen in HTML, CSS,
-            JavaScript und React kombiniere ich modernes Design mit Eleganz. Ich
-            scheue keine Experimente, liebe aber auch die klassische Schönheit –
-            stets mit dem Ziel, die perfekte Lösung für den Kunden zu finden.
-            Aktuell vertiefe ich mein Wissen am Digital Career Institute, um
-            noch raffiniertere und zeitlose Webauftritte zu gestalten.
+          <p className="max-w-[500px] text-lg text-gray-200 mt-2 glowing-text animated-hase">
+           { "Folge dem weißen Hasen".split("").map((char, index) =>(
+              <span key={index}
+               style={{ anamationDelay: `${index * 0.1}s`}}
+               className="glow-letter">
+                {char === " " ? "\u00A0" : char}
+              </span>
+            ))}
           </p>
           <div className="flex gap-3 justify-center mt-8">
             <BiLogoGithub className="h-10 w-10 cursor-pointer rounded-full border-2 border-transparent bg-indigo-800 p-2 text-white transition-all duration-200 hover:scale-110 hover:border-indigo-400 hover:bg-indigo-400 hover:text-white md:h-12 md:w-12" />
